@@ -1,0 +1,5 @@
+Good Texture Website
+	http://www.texturemate.com/content/
+
+Loading Python Script Folder
+	Tools -> Options under the python ide tab up top

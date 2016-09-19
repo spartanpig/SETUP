@@ -1,0 +1,37 @@
+﻿Z '_Zoom
+ZE '_Zoom _Extents
+ZEA '_Zoom _All _Extents
+ZS '_Zoom _Selected
+ZSA '_Zoom _All _Selected
+S '_Snap
+O '_Ortho
+P '_Planar
+M ! _Move
+U _Undo
+POn ! _PointsOn
+POff ! _PointsOff
+C '_SelCrossing
+W '_SelWindow
+COn '_CurvatureGraph
+COff '_CurvatureGraphOff
+PlugInManager ! _OptionsPage _PlugIns
+AdvancedDisplay ! _OptionsPage _DisplayModes
+DisplayAttrsMgr ! _OptionsPage _DisplayModes
+SelPolysurface '_SelPolysrf
+l line
+na NamedView
+tr trim
+gr -_Group
+mi -_Mirror
+ro -_Rotate
+ro3 -_Rotate3D
+runXml -_RunPythonScript runXml.py
+pl -_Pline
+sc -_Scale
+es -_ExtrudeSrf
+pv -_SetView W P
+ps -_PlanarSRf
+of -_Offset
+dis -_Distance
+sh -_Show _Enter
+sctf ScreenCaptureToFile
