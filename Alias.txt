@@ -17,21 +17,25 @@ COff '_CurvatureGraphOff
 PlugInManager ! _OptionsPage _PlugIns
 AdvancedDisplay ! _OptionsPage _DisplayModes
 DisplayAttrsMgr ! _OptionsPage _DisplayModes
-SelPolysurface '_SelPolysrf
-l line
-na NamedView
-tr trim
-gr -_Group
-mi -_Mirror
-ro -_Rotate
 ro3 -_Rotate3D
-runXml -_RunPythonScript runXml.py
 pl -_Pline
+goToLayer -_LoadScript C:\Users\admin/Documents/RhinoUtil/goToObjLayer.rvb
+ro -_Rotate
+sh -_Show _Enter
+gr -_Group
+nv 'NamedView '
+l line
 sc -_Scale
+tr trim
+SelPolysurface '_SelPolysrf
+na NamedView
+mi -_Mirror
 es -_ExtrudeSrf
 pv -_SetView W P
 ps -_PlanarSRf
 of -_Offset
 dis -_Distance
-sh -_Show _Enter
 sctf ScreenCaptureToFile
+ep Export
+alignB -_RunPythonScript alignBottom.py
+alignT -_RunPythonScript alignTop.py
